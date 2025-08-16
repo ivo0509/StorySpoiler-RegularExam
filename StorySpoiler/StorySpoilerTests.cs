@@ -26,8 +26,8 @@ namespace StorySpoiler
         {
             string token = GetJwtToken("IvanBG", "ivanbg123");
 
-            // Създаваме клиент с токен
-            var options = new RestClientOptions(baseURL)
+В  В  В  В  В  В 
+В  В  В  В  В  В  var options = new RestClientOptions(baseURL)
             {
                 Authenticator = new JwtAuthenticator(token)
             };
